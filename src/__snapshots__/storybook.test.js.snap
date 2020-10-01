@@ -121,6 +121,41 @@ exports[`Storyshots Task Pinned 1`] = `
 </div>
 `;
 
+exports[`Storyshots TaskInBoxScreen Error 1`] = `
+Array [
+  " ",
+  <div
+    style={
+      Object {
+        "padding": "3rem",
+      }
+    }
+  >
+    <div
+      className="page lists-show"
+    >
+      <div
+        className="wrapper-message"
+      >
+        <span
+          className="icon-face-sad"
+        />
+        <div
+          className="title-message"
+        >
+          Oh no!
+        </div>
+        <div
+          className="subtitle-message"
+        >
+          Something went wrong
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
 exports[`Storyshots TaskList Default 1`] = `
 Array [
   " ",
