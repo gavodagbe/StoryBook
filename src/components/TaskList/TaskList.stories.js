@@ -2,8 +2,6 @@ import React from 'react'
 
 import TaskList from './TaskList'
 import * as TaskStories from '../Task/Task.stories'
-import { Provider } from 'react-redux'
-import store from '../../lib/store'
 
 // Default configuration 
 export default {
