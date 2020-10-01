@@ -1,7 +1,7 @@
-import React, { version } from 'react'
+import React from 'react'
 import Task from "../Task/Task"
 import PropTypes from 'prop-types'
-import {actions as actionsType , archiveTask, pinTask} from '../../lib/actions'
+import {archiveTask, pinTask} from '../../lib/actions'
 import { connect } from 'react-redux'
 
 const TaskList = ({loading , tasks, onPinTask, onArchiveTask}) => {
