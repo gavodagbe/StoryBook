@@ -89,5 +89,5 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(TaskList)
-//export default TaskList
+//export default connect(mapStateToProps, mapDispatchToProps)(TaskList)
+export default TaskList
