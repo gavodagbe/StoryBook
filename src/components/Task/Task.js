@@ -17,7 +17,7 @@ const Task = ({task : { id, title, state}, onArchiveTask, onPinTask}) =>
             <div className='title' >
                 <input 
                     type="text" 
-                    value={title + state+actionsType.TASK_ARCHIVED} 
+                    value={title} 
                     readOnly={true} 
                     placeholder="Input title" />
             </div>
