@@ -9,7 +9,7 @@ import store from '../../lib/store'
 export default {
     component : TaskList,
     title : 'TaskList',
-    decorators : [story => <Provider store={store}> <div style={{ padding : '3rem'}}>{story()}</div></Provider>] // Utilisation du décorateur pour mettre un style.
+    decorators : [story => <div style={{ padding : '3rem'}}>{story()}</div>] // Utilisation du décorateur pour mettre un style.
 }
 
 // Create template for each configuration
